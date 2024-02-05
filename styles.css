@@ -195,6 +195,39 @@ nav ul li a img {
 /* Other CSS code */
 
 
+/* Other CSS code */
+
+.about {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about h1, .about h2 {
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 200px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+/* Other CSS code */
 
 
 @media screen and (max-width: 768px) {
