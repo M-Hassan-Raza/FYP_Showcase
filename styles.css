@@ -29,6 +29,10 @@ nav ul li a {
     color: #000000;
 }
 
+nav ul li a:hover {
+    color: #ddd;
+}
+
 .hero {
     background-color: #f4f4f4;
     padding: 50px;
@@ -227,6 +231,9 @@ nav ul li a img {
 .team-member img, .advisor img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    object-position: top;
+    max-height: 500px;
 }
 
 /* Other CSS code */
