@@ -207,13 +207,15 @@ nav ul li a img {
     margin-bottom: 20px;
 }
 
-.team {
+/* Other CSS code */
+
+.team, .advisors {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.team-member {
+.team-member, .advisor {
     flex: 1 1 200px;
     margin: 10px;
     background-color: #fff;
@@ -222,10 +224,12 @@ nav ul li a img {
     text-align: center;
 }
 
-.team-member img {
+.team-member img, .advisor img {
     width: 100%;
     height: auto;
 }
+
+/* Other CSS code */
 
 /* Other CSS code */
 
