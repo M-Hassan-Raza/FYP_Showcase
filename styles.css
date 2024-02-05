@@ -165,7 +165,34 @@ nav ul li a img {
     align-self: flex-end;
 }
 
+/* Other CSS code */
 
+.features {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #6959cf;
+    color: #fff;
+}
+
+.features h1 {
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    background-color: #fff;
+    color: #6959cf;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Other CSS code */
 
 
 
