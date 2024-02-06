@@ -1,23 +1,12 @@
-body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
 body, h1, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
+    position: relative;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
-
-header {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px;
 }
 
 header, footer {
@@ -26,14 +15,26 @@ header, footer {
     z-index: 10;
 }
 
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+}
+
 nav ul {
     list-style: none;
     padding: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li {
     display: inline;
     margin-right: 10px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
 }
 
 nav ul li a {
@@ -43,6 +44,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ddd;
+}
+
+nav ul li a img {
+    height: 40px;
 }
 
 .hero {
@@ -58,6 +63,28 @@ nav ul li a:hover {
 
 .features, .contact {
     padding: 20px;
+}
+
+.features {
+    position: relative;
+    z-index: 1;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features h1, .contact h1 {
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    background-color: #fff;
+    color: #6959cf;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 footer {
@@ -114,27 +141,7 @@ footer {
     border-top: 1px solid #fff;
 }
 
-
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-}
-
-nav ul li:first-child {
-    margin-right: auto;
-}
-
-nav ul li a img {
-    height: 40px;
-}
-
-
-
 .contact {
-    padding: 20px;
     background-color: #6959cf;
     color: #fff;
     display: flex;
@@ -142,10 +149,6 @@ nav ul li a img {
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-
-.contact h1 {
-    margin-bottom: 20px;
 }
 
 .contact form {
@@ -181,36 +184,6 @@ nav ul li a img {
     align-self: flex-end;
 }
 
-/* Other CSS code */
-
-.features {
-    position: relative;
-    z-index: 1;
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.features h1 {
-    margin-bottom: 20px;
-}
-
-.feature-item {
-    background-color: #fff;
-    color: #6959cf;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-}
-
-/* Other CSS code */
-
-
-/* Other CSS code */
-
 .about {
     padding: 20px;
     background-color: #f4f4f4;
@@ -220,8 +193,6 @@ nav ul li a img {
 .about h1, .about h2 {
     margin-bottom: 20px;
 }
-
-/* Other CSS code */
 
 .team, .advisors {
     display: flex;
@@ -249,13 +220,8 @@ nav ul li a img {
 .team-member a img {
     width: 36px;
     height: 36px;
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
 }
-
-/* Other CSS code */
-
-/* Other CSS code */
-
 
 @media screen and (max-width: 768px) {
     nav ul {
@@ -289,4 +255,3 @@ nav ul li a img {
         margin-bottom: 0;
     }
 }
-
